@@ -93,7 +93,7 @@ export function Logo({
               labelColour,
             )}
           >
-            Roofing
+            
           </span>
         ) : null}
       </span>
