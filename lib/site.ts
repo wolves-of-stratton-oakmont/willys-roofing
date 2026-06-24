@@ -9,7 +9,7 @@
 
 export const site = {
   name: "Willy's Roofing",
-  shortName: "Above All",
+  shortName: "Willy's Roofing",
   legalName: "Willy's Roofing",
   tagline: "Roofing done right, the first time.",
   /** One-line description used for SEO + OpenGraph defaults. */

@@ -10,7 +10,7 @@ import { cn } from "@/lib/cn";
  * symmetrical pyramid, and the copper cap echoes the site's copper "course
  * rule" signature. Geometry matches /public/logo*.svg and /app/icon.svg.
  *
- * The wordmark is live text — Archivo (display) for "ABOVE ALL" and IBM Plex
+ * The wordmark is live text — Archivo (display) for "Willy's Roofing" and IBM Plex
  * Mono for the spaced "ROOFING" label — so it inherits the loaded brand fonts
  * and stays crisp at every size.
  *
@@ -70,7 +70,7 @@ export function Logo({
         <path d="M7.41 29.8 L38.8 29.8 L42 33 L6 33 Z" fill={courseOuter} />
         <path d="M10.49 22.8 L31.8 22.8 L38 29 L7.76 29 Z" fill={courseMid} />
         <path d="M13.57 15.8 L24.8 15.8 L31 22 L10.84 22 Z" fill={courseInner} />
-        {/* copper ridge cap — "above all" */}
+        {/* copper ridge cap — "Willy's Roofing" */}
         <path d="M15.6 8 L18.4 8 L24 15 L13.92 15 Z" fill={copperCap} />
         {/* overhanging eave board */}
         <rect x="4" y="33.7" width="40" height="3" rx="0.6" fill={courseOuter} />
@@ -84,7 +84,7 @@ export function Logo({
             wordColour,
           )}
         >
-          Above All
+          Willy's Roofing
         </span>
         {full ? (
           <span

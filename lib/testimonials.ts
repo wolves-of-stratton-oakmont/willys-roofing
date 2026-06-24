@@ -31,7 +31,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote:
-      "We had a leak that two other companies just wanted to fix by replacing the whole roof. Above All found the actual problem — a cracked pipe boot — and repaired it the same afternoon for a fraction of the price. Honest people.",
+      "We had a leak that two other companies just wanted to fix by replacing the whole roof. Willy's Roofing found the actual problem — a cracked pipe boot — and repaired it the same afternoon for a fraction of the price. Honest people.",
     name: "Dave R.",
     city: "Hamilton",
     rating: 5,

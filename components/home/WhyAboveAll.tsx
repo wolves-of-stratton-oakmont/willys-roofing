@@ -45,7 +45,7 @@ export function WhyAboveAll() {
         <div className="order-1 lg:order-2">
           <SectionHeader
             tone="onDark"
-            eyebrow="Why Above All"
+            eyebrow="Why Willy's Roofing"
             title="The roofer you'd recommend to your neighbour"
             intro="No hype, no fake urgency. Just licensed, insured work, an honest assessment, and a written guarantee you can hold us to."
             maxWidth={false}
