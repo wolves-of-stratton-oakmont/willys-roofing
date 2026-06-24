@@ -9,7 +9,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Project Gallery",
   description:
-    "See the kind of roofing work Willy's Roofing does across Stoney Creek, Hamilton, Burlington and the Niagara region — shingle replacements, flat roofs, flashing, skylights and repairs.",
+    "See the kind of roofing work Willy's Roofing does across GTA, Hamilton, Burlington and the Niagara region — shingle replacements, flat roofs, flashing, skylights and repairs.",
 };
 
 // GALLERY — Wave 2 (DALE). The visual centrepiece: a curated, editorial grid

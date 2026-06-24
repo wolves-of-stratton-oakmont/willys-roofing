@@ -25,7 +25,7 @@ export const testimonials: Testimonial[] = [
     quote:
       "From the estimate to the final clean-up, everything was exactly as promised. The crew protected our gardens, finished in two days, and you genuinely couldn't tell anyone had been in the yard. The new roof looks fantastic.",
     name: "Karen M.",
-    city: "Stoney Creek",
+    city: "GTA",
     rating: 5,
     service: "asphalt-shingle-roofing",
   },

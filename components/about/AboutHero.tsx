@@ -24,7 +24,7 @@ export function AboutHero() {
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-[var(--color-slate-200)]">
             Willy's Roofing is a locally owned roofing company working out of
-            Stoney Creek, across the {site.serviceRegion}. We treat a roof as a
+            GTA, across the {site.serviceRegion}. We treat a roof as a
             complete system — shingles, flashing, ventilation and all — and we
             leave your property the way we found it. No upsell theatre, no
             disappearing crews.

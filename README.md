@@ -1,6 +1,6 @@
 # Willy's Roofing — Website
 
-The marketing website for **Willy's Roofing**, a locally owned roofing company serving Stoney Creek, Hamilton, Burlington and the Niagara region of southern Ontario.
+The marketing website for **Willy's Roofing**, a locally owned roofing company serving GTA, Hamilton, Burlington and the Niagara region of southern Ontario.
 
 Built with **Next.js (App Router) + TypeScript + Tailwind CSS**. This document covers how to run, build and deploy the site, the design system in brief, and — most importantly — the **"Before you launch" checklist** of everything the owner should review or replace.
 

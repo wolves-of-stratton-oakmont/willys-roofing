@@ -16,7 +16,7 @@ export type ServiceArea = {
 
 export const serviceAreas: ServiceArea[] = [
   {
-    name: "Stoney Creek",
+    name: "GTA",
     primary: true,
     blurb:
       "Our home base. From the lakeshore to the escarpment, we know the housing stock and the weather that beats on it.",

@@ -50,7 +50,7 @@ export function GalleryTeaser() {
         <SectionHeader
           eyebrow="Recent work"
           title="Roofs we've finished across the region"
-          intro="A look at completed shingle and flat-roof projects, chimney re-flashes and detail work from around Stoney Creek and the wider Hamilton–Niagara area."
+          intro="A look at completed shingle and flat-roof projects, chimney re-flashes and detail work from around GTA and the wider Hamilton–Niagara area."
           maxWidth={false}
           className="max-w-2xl"
         />

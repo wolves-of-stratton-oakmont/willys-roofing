@@ -49,7 +49,7 @@ export function AboutStory() {
               recommend to a neighbour — because we have to see them again.
             </p>
             <p>
-              We work across Stoney Creek, Hamilton, Burlington and the wider
+              We work across GTA, Hamilton, Burlington and the wider
               Niagara bench, and we know this region&rsquo;s housing and its
               weather. Century homes in the lower city, post-war bungalows on
               the mountain, new builds out toward the lake — each one calls for

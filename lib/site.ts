@@ -14,7 +14,7 @@ export const site = {
   tagline: "Roofing done right, the first time.",
   /** One-line description used for SEO + OpenGraph defaults. */
   description:
-    "Willy's Roofing is a locally owned roofing company serving Stoney Creek, Hamilton and the Niagara region. Asphalt shingle replacement, repairs, flat roofing, eavestrough and emergency roof service — licensed, insured and backed by a written workmanship warranty. Free, no-obligation estimates.",
+    "Willy's Roofing is a locally owned roofing company serving GTA, Hamilton and the Niagara region. Asphalt shingle replacement, repairs, flat roofing, eavestrough and emergency roof service — licensed, insured and backed by a written workmanship warranty. Free, no-obligation estimates.",
 
   // --- Contact -----------------------------------------------------------
   phone: {
@@ -30,14 +30,14 @@ export const site = {
 
   // --- Location / service region ----------------------------------------
   // No fabricated street address. We present a service region, not a storefront.
-  primaryCity: "Stoney Creek",
+  primaryCity: "GTA",
   region: "Ontario",
   regionShort: "ON",
   country: "Canada",
   /** Used in copy like "the {serviceRegion}". */
   serviceRegion: "Greater Hamilton & Niagara region",
   geo: {
-    // Stoney Creek, ON — used for LocalBusiness structured data only.
+    // GTA, ON — used for LocalBusiness structured data only.
     latitude: 43.2168,
     longitude: -79.7624,
   },

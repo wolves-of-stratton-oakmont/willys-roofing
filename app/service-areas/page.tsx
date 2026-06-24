@@ -13,7 +13,7 @@ import { primaryArea, nearbyAreas, serviceAreaNames } from "@/lib/serviceAreas";
 export const metadata: Metadata = {
   title: "Service Areas",
   description:
-    "Willy's Roofing serves Stoney Creek, Hamilton, Burlington, Grimsby, Beamsville, Ancaster, Dundas, Waterdown, Oakville, Lincoln, Smithville, Vineland and the wider Niagara region.",
+    "Willy's Roofing serves GTA, Hamilton, Burlington, Grimsby, Beamsville, Ancaster, Dundas, Waterdown, Oakville, Lincoln, Smithville, Vineland and the wider Niagara region.",
 };
 
 // SERVICE AREAS — Wave 2 (DALE). primaryArea + nearbyAreas with genuinely local,
@@ -44,7 +44,7 @@ export default function ServiceAreasPage() {
               {primaryArea.blurb}
             </p>
             <p className="mt-4 leading-relaxed text-[var(--color-slate-600)]">
-              Stoney Creek runs from the Lake Ontario shoreline up to the
+              GTA runs from the Lake Ontario shoreline up to the
               Niagara Escarpment, and the homes change as the land rises —
               lakeside properties taking the wind, established streets in the
               old village, and newer subdivisions climbing the mountain. We know
@@ -66,8 +66,8 @@ export default function ServiceAreasPage() {
             <div className="relative">
               <div className="roofline-top relative aspect-[5/4] overflow-hidden rounded-[var(--radius-lg)] bg-[var(--color-slate-100)] pt-[var(--pitch-rise)] shadow-[var(--shadow-md)]">
                 <Image
-                  src="/images/areas/stoney-creek.jpg"
-                  alt="A tree-lined residential street in Stoney Creek, Ontario, with detached homes"
+                  src="/images/areas/gta.jpg"
+                  alt="A tree-lined residential street in GTA, Ontario, with detached homes"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"

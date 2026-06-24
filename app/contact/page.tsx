@@ -21,7 +21,7 @@ import { ContactRail } from "@/components/contact/ContactRail";
 export const metadata: Metadata = {
   title: "Contact & Free Estimate",
   description:
-    "Request a free, no-obligation roofing estimate from Willy's Roofing, or call 416-414-8452. Serving Stoney Creek, Hamilton, Burlington and the Niagara region.",
+    "Request a free, no-obligation roofing estimate from Willy's Roofing, or call 416-414-8452. Serving GTA, Hamilton, Burlington and the Niagara region.",
   alternates: { canonical: "/contact" },
 };
 

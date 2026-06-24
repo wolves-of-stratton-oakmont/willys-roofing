@@ -82,7 +82,7 @@ Willy's Roofing and are **not** stock (see *Brand assets* at the bottom).
 | File | Photographer | Pexels source |
 |---|---|---|
 | `public/images/areas/region.jpg` | Pavel Danilyuk | https://www.pexels.com/photo/drone-shot-of-houses-7937274/ |
-| `public/images/areas/stoney-creek.jpg` | Serg Karpow | https://www.pexels.com/photo/suburban-street-lined-with-lush-green-trees-33622362/ |
+| `public/images/areas/gta.jpg` | Serg Karpow | https://www.pexels.com/photo/suburban-street-lined-with-lush-green-trees-33622362/ |
 
 ## Contact
 

@@ -8,7 +8,7 @@ Stack: **Next.js 16.2.9 (App Router, Turbopack default), React 19.2, TypeScript,
 
 ## 1. Brand positioning & voice
 
-**Positioning.** Willy's Roofing is the dependable, straight-talking local roofer for the Greater Hamilton & Niagara region (primary city: **Stoney Creek, ON**). The brand is built on *craft, honesty, and weather-tested competence* — a company that gets on the roof, tells you the truth (including "you only need a repair"), installs the roof as a complete system to manufacturer spec, and cleans up like they were never there. Not a flashy upsell shop; a trades-proud, warranty-backed, neighbour-accountable business.
+**Positioning.** Willy's Roofing is the dependable, straight-talking local roofer for the Greater Hamilton & Niagara region (primary city: **GTA, ON**). The brand is built on *craft, honesty, and weather-tested competence* — a company that gets on the roof, tells you the truth (including "you only need a repair"), installs the roof as a complete system to manufacturer spec, and cleans up like they were never there. Not a flashy upsell shop; a trades-proud, warranty-backed, neighbour-accountable business.
 
 **Voice.** Plain-spoken, confident, grounded. Talks like an experienced roofer who respects your time and your money. Specific over clever. Explains the *why* (ice dams, ventilation, flashing) without jargon-dumping.
 
@@ -206,7 +206,7 @@ Builders RENDER `lib/*` data — don't invent divergent copy. Image paths below 
 
 ### `/service-areas` — Service areas (DALE)
 1. Page header.
-2. Primary area highlight — `primaryArea` (Stoney Creek). Image: `areas/region.jpg` or `areas/stoney-creek.jpg`.
+2. Primary area highlight — `primaryArea` (GTA). Image: `areas/region.jpg` or `areas/gta.jpg`.
 3. Nearby areas grid — `nearbyAreas` cards (name + blurb).
 4. "Don't see your town?" + CTA.
 
@@ -300,7 +300,7 @@ Restrained and purposeful. The mechanics live in `globals.css`; the trigger is t
 | Path | Pexels terms | Cand. IDs | Orient | Used on | Alt |
 |---|---|---|---|---|---|
 | `/images/areas/region.jpg` | "aerial residential neighbourhood rooftops" | 7937293, 7937274 | landscape | Service-areas / home teaser | Aerial view of a residential neighbourhood's rooftops |
-| `/images/areas/stoney-creek.jpg` | "niagara ontario town", "suburban toronto street homes" | 2035406, 21637753 | landscape | Service-areas primary | Tree-lined Ontario residential street |
+| `/images/areas/gta.jpg` | "niagara ontario town", "suburban toronto street homes" | 2035406, 21637753 | landscape | Service-areas primary | Tree-lined Ontario residential street |
 
 ### Contact + OG
 | Path | Pexels terms | Cand. IDs | Orient | Used on | Alt |
@@ -316,9 +316,9 @@ Restrained and purposeful. The mechanics live in `globals.css`; the trigger is t
 
 | File | Exports | Contents |
 |---|---|---|
-| `lib/site.ts` | `site`, `navLinks`, `footerLegalLinks`, `NavLink` | Company facts, real phone (`416-414-8452` / `tel:+14164148452`), placeholder email/social/hours (marked EDIT BEFORE LAUNCH), primary city = Stoney Creek, `serviceRegion`, `url` (metadataBase), `ogImage`. |
+| `lib/site.ts` | `site`, `navLinks`, `footerLegalLinks`, `NavLink` | Company facts, real phone (`416-414-8452` / `tel:+14164148452`), placeholder email/social/hours (marked EDIT BEFORE LAUNCH), primary city = GTA, `serviceRegion`, `url` (metadataBase), `ogImage`. |
 | `lib/services.ts` | `services`, `serviceSlugs`, `getService(slug)`, `featuredServices`, `Service` | 7 services (asphalt-shingle-roofing, roof-repair, flat-roofing, eavestrough-and-gutters, skylights, attic-ventilation-and-insulation, emergency-roof-repair). Each: slug, title, tagline, short + long (paragraph array) descriptions, features[], lucide `icon`, `image`, `heroImage`, `featured`. |
-| `lib/serviceAreas.ts` | `serviceAreas`, `primaryArea`, `nearbyAreas`, `serviceAreaNames`, `ServiceArea` | Stoney Creek (primary) + 11 nearby towns, each with a `blurb`. |
+| `lib/serviceAreas.ts` | `serviceAreas`, `primaryArea`, `nearbyAreas`, `serviceAreaNames`, `ServiceArea` | GTA (primary) + 11 nearby towns, each with a `blurb`. |
 | `lib/process.ts` | `processSteps`, `ProcessStep` | 5 ordered steps (01–05) with icon. The only legitimate numbered sequence. |
 | `lib/trust.ts` | `trustSignals`, `trustBadges`, `honestStats`, `TrustSignal` | Honest, editable signals (licensed & insured, written workmanship warranty, free estimates, locally owned). **No fabricated numbers.** |
 | `lib/testimonials.ts` | `testimonials`, `averageRating`, `Testimonial` | 8 realistic **PLACEHOLDER** reviews (first name + last initial + city + rating). Carries a prominent replace-before-launch comment. |

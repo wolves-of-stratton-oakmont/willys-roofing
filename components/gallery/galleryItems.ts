@@ -33,7 +33,7 @@ export const galleryItems: GalleryItem[] = [
     alt: "A completed charcoal asphalt shingle roof on a detached two-storey home",
     tag: "Asphalt shingles",
     caption: "Full architectural-shingle replacement on a detached home.",
-    area: "Stoney Creek",
+    area: "GTA",
     span: "feature",
   },
   {
@@ -97,7 +97,7 @@ export const galleryItems: GalleryItem[] = [
     alt: "A finished residential roof catching warm low light at golden hour",
     tag: "Completed",
     caption: "Job wrapped, site cleared, nails swept — done right.",
-    area: "Stoney Creek",
+    area: "GTA",
     span: "feature",
   },
   {
