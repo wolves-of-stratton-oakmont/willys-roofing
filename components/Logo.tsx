@@ -84,7 +84,7 @@ export function Logo({
             wordColour,
           )}
         >
-          Willy's Roofing
+          Willy's
         </span>
         {full ? (
           <span
